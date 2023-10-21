@@ -1,0 +1,192 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Lb_calculadora'
+  ClientHeight = 442
+  ClientWidth = 628
+  Color = clBackground
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object lb_calculadora: TLabel
+    Left = 216
+    Top = 8
+    Width = 153
+    Height = 34
+    Caption = 'CALCULADORA'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -27
+    Font.Name = 'Impact'
+    Font.Style = []
+    ParentFont = False
+  end
+  object sbt_divide: TSpeedButton
+    Left = 384
+    Top = 120
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '/'
+    OnClick = sbt_divideClick
+  end
+  object sbt_multiply: TSpeedButton
+    Left = 384
+    Top = 184
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '*'
+    OnClick = sbt_multiplyClick
+  end
+  object sbt_minus: TSpeedButton
+    Left = 384
+    Top = 248
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '-'
+    OnClick = sbt_minusClick
+  end
+  object sbt_plus: TSpeedButton
+    Left = 384
+    Top = 312
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '+'
+    OnClick = sbt_plusClick
+  end
+  object sbt_0: TSpeedButton
+    Left = 240
+    Top = 376
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '0'
+    OnClick = sbt_0Click
+  end
+  object sbt_5: TSpeedButton
+    Left = 240
+    Top = 248
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '5'
+    OnClick = sbt_5Click
+  end
+  object sbt_6: TSpeedButton
+    Left = 312
+    Top = 248
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '6'
+    OnClick = sbt_6Click
+  end
+  object sbt_7: TSpeedButton
+    Left = 168
+    Top = 184
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '7'
+    OnClick = sbt_7Click
+  end
+  object sbt_8: TSpeedButton
+    Left = 240
+    Top = 184
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '8'
+    OnClick = sbt_8Click
+  end
+  object sbt_9: TSpeedButton
+    Left = 312
+    Top = 184
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '9'
+    OnClick = sbt_9Click
+  end
+  object sbt_1: TSpeedButton
+    Left = 168
+    Top = 312
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '1'
+    OnClick = sbt_1Click
+  end
+  object sbt_2: TSpeedButton
+    Left = 240
+    Top = 312
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '2'
+    OnClick = sbt_2Click
+  end
+  object sbt_3: TSpeedButton
+    Left = 312
+    Top = 312
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '3'
+    OnClick = sbt_3Click
+  end
+  object sbt_4: TSpeedButton
+    Left = 168
+    Top = 248
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = '4'
+    OnClick = sbt_4Click
+  end
+  object sbt_equals: TSpeedButton
+    Left = 384
+    Top = 376
+    Width = 49
+    Height = 41
+    Caption = '='
+    OnClick = sbt_equalsClick
+  end
+  object sbt_c: TSpeedButton
+    Left = 312
+    Top = 120
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = 'C'
+  end
+  object sbt_ce: TSpeedButton
+    Left = 240
+    Top = 120
+    Width = 49
+    Height = 41
+    HelpContext = 1
+    Caption = 'CE'
+  end
+  object txt_result: TEdit
+    Left = 168
+    Top = 56
+    Width = 265
+    Height = 37
+    Alignment = taRightJustify
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Impact'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = '0'
+  end
+end
